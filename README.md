@@ -1,0 +1,1 @@
+Recreating the Google homepage as part of a the Odin Project lesson. Lesson found here : "https://www.theodinproject.com/lessons/html-css"
