@@ -1,0 +1,40 @@
+#logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#searchbar {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #DFE1E5;
+}
+
+#searchfield {
+    display: flex;
+    border: none;
+    width: 420px;
+}
+
+#magglass {
+    height: 15px;
+    margin: 13px 10px 10px 15px;
+}
+
+#mic {
+    height: 23px;
+    margin: 8px 10px 10px 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#searchbar:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
