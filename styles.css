@@ -1,3 +1,8 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -15,7 +20,8 @@ body {
 #logo {
     display: flex;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    margin-top: 150px;
 }
 
 #searchbar {
@@ -58,6 +64,57 @@ input:focus {
 .buttoncontainer {
     margin: 0 auto;
     text-align: center;
+}
+
+header {
+    margin: 0;
+    height: 65px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#navbarcontainer {
+    padding-top: 15px;
+}
+
+
+.leftnavlink {
+    margin-top: 15px;
+    margin-left: 0;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.leftnavlink:hover {
+    text-decoration: underline;
+}
+
+.rightnavlink {
+    float: right;
+    margin-left: 0;
+    margin-top: 3px;
+    margin-right: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.rightnavlink:hover {
+    text-decoration: underline;
+}
+
+#signin {
+    float: right;
+    margin: -3px 10px 0 10px;
+    width: 70px;
+    height: 28px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    border: none;
+    font-weight: bold;
 }
 
 .buttons {
